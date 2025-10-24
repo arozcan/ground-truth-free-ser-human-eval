@@ -1,0 +1,36 @@
+# --- Python / Streamlit defaults ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+*.log
+
+# --- Streamlit secrets ---
+.streamlit/
+.streamlit/secrets.toml
+
+# --- App-specific confidential folders ---
+config/
+ratings/
+split_groups/
+results/
+tmp/
+cache/
+
+# --- OS / IDE stuff ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Cached data / intermediate files ---
+*.csv~
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# --- Jupyter / notebook artifacts (if any) ---
+.ipynb_checkpoints/
