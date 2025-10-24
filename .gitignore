@@ -15,7 +15,6 @@ venv/
 # --- App-specific confidential folders ---
 config/
 ratings/
-split_groups/
 results/
 tmp/
 cache/
